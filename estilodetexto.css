@@ -1,0 +1,21 @@
+.sea{
+    border: 5px solid green; 
+    margin-left:5px;
+    border-radius: 10px;
+    color: green;
+  }
+  .mas {
+    border: 5px solid cyan; 
+    border-radius: 50%;
+    background-color: cyan;
+    color:white;
+  }
+  .create {
+    border: 4px solid black; 
+    background-color: blue;
+    box-shadow: 5px 2px 2px black;
+  }
+div{
+    padding: 2px;
+    margin: 2px;
+}
