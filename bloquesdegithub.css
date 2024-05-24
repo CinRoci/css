@@ -1,0 +1,43 @@
+.container{
+    width: 1000px;
+    height: 800px;
+    background-color: beige;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+    margin: 0px auto;
+  }
+.fila {
+    height: 250px;
+    background-color: aqua;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 10px;
+}
+.fila:nth-child(3) {
+    background-color: #dfb9bf;
+    margin: 0px auto;
+    padding: auto;
+}
+.fila:nth-child(2) {
+    background-color: #cb717e;
+    margin: 0px auto;
+    padding: auto;
+}
+img{
+    width: 200px;
+    height: 200px;
+    display:inline;
+    margin: 0px auto;
+    padding: auto;
+}
+h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
