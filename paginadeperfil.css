@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #5d1818;
+    color: #ffffff;
+    height: 80px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+    font-family: 'Roboto'
+}
+
+.btn {
+    height: 50px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: black;
+    border: solid;
+    font-size: 16px;
+    box-shadow: 5px 5px #df1d1d8a;
+    font-weight: bold;
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.user-card {
+    background-color: #fff;
+    border: 2px solid #117c4396;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.card-header {
+    background-color: greenyellow;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-header2 {
+    background-color: grey;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.card-body {
+    padding: 20px;
+    margin: 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: greenyellow;
+    height: 150px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #0b56be;
+}
+
+.educacion {
+    text-align: center;
+}
+
+.año {
+    color: grey;
+    font-family: cursive;
+    font-style: italic;
+}
+
+p {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.dos {
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+.solicitudes{
+    background-color: #fff;
+    border: 2px solid #117c4396;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 350px;
+}
+
+.titulo {
+    text-align: center;
+    display: inline-block;
+}
+
+.phil-s {
+    display:inline;
+
+}
+
+.perfil {
+    border-radius: 50%;
+    width: 80px;
+    height:80px;
+} 
+
+.contenedor-izq{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-der{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card-body2{
+    width: 100%;
+    height: 150px;
+}
+.card-body3{
+    width:100px;
+    height:300px; 
+    display: flex;
+    flex-direction: column;
+}
+.accept-closed{
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+}
